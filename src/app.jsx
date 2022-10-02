@@ -13,7 +13,7 @@ export function App() {
           <hero-cloud></hero-cloud>
           <h1 class="heading">We don't make the CMS - you do.</h1>
           <div class="intro">
-            Stand up your CRUD application using EF Core as the truth
+            Create CRUD applications using EF Core as truth
           </div>
         </section>
         <sepa-rator></sepa-rator>
