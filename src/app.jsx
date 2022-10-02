@@ -17,7 +17,7 @@ export function App() {
           <hero-cloud></hero-cloud>
           <h1 class="heading">We don't make the CMS - you do.</h1>
           <div class="intro">
-            Hate CMS'es? Ever wish you could stand up a CRUD application using EF Core as the truth?
+            Stand up your CRUD application using EF Core as the truth using our CMS toolkit
           </div>
         </section>
         <sepa-rator>
@@ -28,13 +28,13 @@ export function App() {
             <li class="usp-item">
               <h3 class="usp-heading">EF Core is the data model</h3>
               <div class="usp-text">
-                Your data model is stored in version control, along with the rest of your business logic.
+                Your data model is stored in your EF Core context - Not in the database.
               </div>
             </li>
             <li class="usp-item">
               <h3 class="usp-heading">Extensible, automatic scaffolding</h3>
               <div class="usp-text">
-                Using regular Razor partials and UI Hints, you extend the scaffolding that the CMS toolkit provides you.
+                Using regular Razor partials, UI Hints and <code>[CustomAttributes]</code>, you extend the scaffolding that the CMS toolkit provides you.
               </div>
             </li>
           </ul>
