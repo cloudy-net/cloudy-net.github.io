@@ -149,6 +149,7 @@ hero-cloud {
 .heading {
     margin: 0 0 1em;
     text-shadow: 1px 1px 0 black;
+    text-align: center;
 }
 
 @media(min-width: $screen-sm){
@@ -164,6 +165,7 @@ hero-cloud {
 
 .intro {
     margin-bottom: 2rem;
+    text-align: center;
 
     p {
         margin-top: 0;
