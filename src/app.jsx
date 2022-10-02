@@ -1,8 +1,4 @@
-import { useState } from 'preact/hooks'
-
 export function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
@@ -20,9 +16,7 @@ export function App() {
             Stand up your CRUD application using EF Core as the truth
           </div>
         </section>
-        <sepa-rator>
-          <separator-fold title="This is a fold."></separator-fold>
-        </sepa-rator>
+        <sepa-rator></sepa-rator>
         <section>
           <ul class="usp-list">
             <li class="usp-item">
@@ -40,12 +34,25 @@ export function App() {
           </ul>
         </section>
         <sepa-rator></sepa-rator>
+        
+        <h3>Pricing tiers</h3>
+        
+        <h4>Non-commercial use</h4>
+        <p>Free</p>
+
+        <h4>Companies or freelancers with a yearly revenue less than 100,000 US Dollars</h4>
+        <p>$9.95 per month (excl VAT) for unlimited production instances</p>
+
+        <h4>Companies with a yearly revenue in excess of 100,000 US Dollars</h4>
+        <p>$99.95 per month (excl VAT) per production instance</p>
+
+        <sepa-rator></sepa-rator>
       </div>
       <footer class="site-footer">
         <div class="container">
           <div class="legalese">
-          Cloudy CMS is a product by Bjorn Goransson Invest AB. Company ISIN: SE559204344101<br/>
-          Contact: +46 (0)76 067 6064 bjorn.a.goransson@gmail.com 2022 © Bjorn Goransson Invest AB
+            Cloudy CMS is a product by Bjorn Goransson Invest AB. Company ISIN: SE559204344101<br />
+            Contact: +46 (0)76 067 6064 bjorn.a.goransson@gmail.com 2022 © Bjorn Goransson Invest AB
           </div>
         </div>
       </footer>
