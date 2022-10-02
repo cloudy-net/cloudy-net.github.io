@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [preact()],
   root: 'src',
   build: {
-      outDir: 'docs'
+      outDir: '../docs'
   }
 })
