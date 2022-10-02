@@ -6,6 +6,13 @@ export default defineConfig({
   plugins: [preact()],
   root: 'src',
   build: {
-      outDir: '../docs'
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].bundle.js',
+        assetFileNames: '[name].[ext]',
+        chunkFileNames: '[name].[ext]'
+      }
+    },
+    outDir: '../docs'
   }
 })
