@@ -40,7 +40,7 @@ export function App() {
         <h4>Non-commercial or OSS projects use</h4>
         <p>Free</p>
 
-        <h4>Companies or freelancers with a yearly revenue less than 100,000 US Dollars</h4>
+        <h4>Companies/freelancers with a yearly revenue less than 100,000 US Dollars</h4>
         <p>$9.95 per month (excl VAT) for unlimited production instances</p>
 
         <h4>Companies with a yearly revenue in excess of 100,000 US Dollars</h4>
