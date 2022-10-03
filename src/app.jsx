@@ -37,7 +37,7 @@ export function App() {
         
         <h3>Pricing tiers</h3>
         
-        <h4>Non-commercial use</h4>
+        <h4>Non-commercial or OSS projects use</h4>
         <p>Free</p>
 
         <h4>Companies or freelancers with a yearly revenue less than 100,000 US Dollars</h4>
