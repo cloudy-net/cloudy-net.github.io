@@ -12,6 +12,9 @@ export default () => {
                         <li class="nav-item">
                             <a class="nav-link" href="https://github.com/cloudy-cms/Cloudy.CMS">Github</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/cloudydotnet">Twitter</a>
+                        </li>
                     </ul>
                 </div>
             </div>
