@@ -37,15 +37,16 @@ export function App() {
         
         <h3>Pricing tiers</h3>
         
-        <h4>Non-commercial or OSS projects use</h4>
-        <p>Free</p>
+        <dl>
+          <dt>Non-commercial or OSS projects use</dt>
+          <dd>Free</dd>
 
-        <h4>Companies/freelancers with a yearly revenue less than 100,000 US Dollars</h4>
-        <p>$9.95 per month (excl VAT) for unlimited production instances</p>
+          <dt>Companies/freelancers with revenue <span title="Less than ...">&lt;</span> $100,000/year</dt>
+          <dd>$9.95 per month (excl VAT) for unlimited production instances</dd>
 
-        <h4>Companies with a yearly revenue in excess of 100,000 US Dollars</h4>
-        <p>$99.95 per month (excl VAT) per production instance</p>
-
+          <dt>Companies with revenue <span title="Greater than ...">&gt;</span> $100,000/year</dt>
+          <dd>$99.95 per month (excl VAT) per production instance</dd>
+        </dl>
         <sepa-rator></sepa-rator>
       </div>
       <footer class="site-footer">
