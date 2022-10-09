@@ -1,3 +1,8 @@
+import ModelPng from '../images/model.png'
+import CreateNewPng from '../images/create-new.png'
+import SetupPng from '../images/setup.png'
+import RoutingPng from '../images/routing.png'
+
 export function App() {
   return (
     <>
@@ -16,6 +21,11 @@ export function App() {
             Create CRUD applications using EF Core as truth
           </div>
         </section>
+        <sepa-rator></sepa-rator>
+        <img class="image" src={ModelPng} alt="Example of a standard EF Core model in C#" />
+        <img class="image" src={CreateNewPng} alt="Screenshot of how Cloudy scaffolds previously mentioned model, showing URL segment that will be used for routing" />
+        <img class="image" src={SetupPng} alt="Code demonstrating how to setup a route with Cloudy" />
+        <img class="image" src={RoutingPng} alt="Screenshot of a browser routing a request to previously mentioned route" />
         <sepa-rator></sepa-rator>
         <section>
           <ul class="usp-list">
