@@ -130,19 +130,18 @@ pre {
 }
 
 hero-cloud {
-    margin: 1rem 0;
+    margin: 3rem 0 1rem;
     display: block;
-    height: 2rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='40' width='65' viewBox='0 0 65 40'%3E%3Ccircle fill='%23fff' r='16' cy='24' cx='16'/%3E%3Ccircle fill='%23fff' r='10' cy='10' cx='29'/%3E%3Ccircle fill='%23fff' r='6' cy='14' cx='42'/%3E%3Crect fill='%23fff' ry='12' x='5' y='16' height='24' width='60'/%3E%3C/svg%3E");
+    font-size: 35vw;
+    line-height: 0.5;
+    text-align: center;
+    text-shadow: 1px 1px 0 black;
 }
 
 @media(min-width: $screen-sm){
     hero-cloud {
         margin-top: 5rem;
-        height: 10rem;
+        font-size: 200px;
     }
 }
 

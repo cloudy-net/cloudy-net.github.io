@@ -10,7 +10,7 @@ export function App() {
       </header>
       <div class="container">
         <section class="hero">
-          <hero-cloud></hero-cloud>
+          <hero-cloud>☁</hero-cloud>
           <h1 class="heading">We don't make the CMS - you do.</h1>
           <div class="intro">
             Create CRUD applications using EF Core as truth
