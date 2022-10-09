@@ -2,17 +2,12 @@ import ModelPng from '../images/model.png'
 import CreateNewPng from '../images/create-new.png'
 import SetupPng from '../images/setup.png'
 import RoutingPng from '../images/routing.png'
+import Header from './header';
 
 export function App() {
   return (
     <>
-      <header>
-        <div class="container">
-          <header-logo></header-logo>
-          <header-title>Cloudy.NET</header-title>
-          <a class="header-link" href="https://github.com/cloudy-cms/Cloudy.CMS">Github</a>
-        </div>
-      </header>
+      <Header/>
       <div class="container">
         <section class="hero">
           <hero-cloud>☁</hero-cloud>
