@@ -1,6 +1,4 @@
-import ModelPng from '../images/model.png'
 import CreateNewPng from '../images/create-new.png'
-import SetupPng from '../images/setup.png'
 import RoutingPng from '../images/routing.png'
 import Header from './header';
 
@@ -17,9 +15,25 @@ export function App() {
           </div>
         </section>
         <sepa-rator></sepa-rator>
-        <img class="image" src={ModelPng} alt="Example of a standard EF Core model in C#" />
+        <pre>
+          public class Page <span class="opacity-50">: INameable, IRoutable</span><br/>
+          &#123;<br/>
+          &nbsp;&nbsp;<span class="opacity-50">[DatabaseGenerated(DatabaseGeneratedOption.Identity)]</span><br/>
+          &nbsp;&nbsp;public Guid Id &#123; get; set; &#125;<br/>
+          &nbsp;&nbsp;public string Name &#123; get; set; &#125;<br/>
+          &nbsp;&nbsp;public string UrlSegment &#123; get; set; &#125;<br/>
+          &nbsp;&nbsp;<span class="opacity-50">[UIHint("textarea")]</span><br/>
+          &nbsp;&nbsp;public string Description &#123; get; set; &#125;<br/>
+          &nbsp;&nbsp;<span class="opacity-50">[UIHint("html")]</span><br/>
+          &nbsp;&nbsp;public string MainBody &#123; get; set; &#125;<br/>
+          &#125;
+        </pre>
         <img class="image" src={CreateNewPng} alt="Screenshot of how Cloudy scaffolds previously mentioned model, showing URL segment that will be used for routing" />
-        <img class="image" src={SetupPng} alt="Code demonstrating how to setup a route with Cloudy" />
+        <pre>
+          endpoints.MapGet("/pages/&#123;route:contentroute&#125;", <span class="opacity-50">async</span> c =&lt;<br/>
+          &nbsp;&nbsp;<span class="opacity-50">await</span> c.Response.WriteAsync($"Hello &#123;c.GetContentFromContentRoute&gt;Page&lt;().Name&#125;")<br/>
+          );
+        </pre>
         <img class="image" src={RoutingPng} alt="Screenshot of a browser routing a request to previously mentioned route" />
         <sepa-rator></sepa-rator>
         <section>
