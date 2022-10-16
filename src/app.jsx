@@ -59,6 +59,8 @@ export function App() {
         
         <h3>Pricing tiers</h3>
         
+        <p>Cloudy CMS is free for personal and OSS use. Commercial use costs as per below:</p>
+
         <dl>
           <dt>Non-commercial or OSS projects use</dt>
           <dd>Free</dd>
@@ -67,10 +69,10 @@ export function App() {
           <dd>$9.95 per month (excl VAT) for unlimited production instances</dd>
 
           <dt>Companies with revenue <span title="Greater than ...">&gt;</span> $100,000/year</dt>
-          <dd>$99.95 per month (excl VAT) per production instance</dd>
+          <dd>$99.95 per month (excl VAT) per production instance (note: an instance can have unlimited <i>replicas</i>)</dd>
         </dl>
 
-        <p>For more information, email <a href="mailto:bjorn.a.goransson@gmail.com">bjorn.a.goransson@gmail.com</a>.</p>
+        <p>For more information, please email <a href="mailto:bjorn.a.goransson@gmail.com">bjorn.a.goransson@gmail.com</a>.</p>
         <sepa-rator></sepa-rator>
       </div>
       <footer class="site-footer">
