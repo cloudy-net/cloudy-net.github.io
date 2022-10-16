@@ -39,6 +39,20 @@ export function App() {
               </p>
               <img src={SelectImage} style="max-width: 100%;" alt="Demonstration of how the CMS will scaffold the Select attribute on the POCO. It will give you a preview of the referenced entity, and a dropdown with filtering and pagination capabilities." />
             </li>
+            <li class="usp-item">
+              <h3 class="usp-heading">Support any database</h3>
+              <p>
+                Because we use standard EF Core as our data backend, we support anything and everything supported by EF Core:
+              </p>
+              <ul>
+                <li>Inmemory</li>
+                <li>SQLite</li>
+                <li>SQL Server</li>
+                <li>CosmosDB</li>
+                <li>... even `/dev/null`</li>
+              </ul>
+              <p>(for legal reasons, that last one was a joke)</p>
+            </li>
           </ul>
         </section>
         <sepa-rator></sepa-rator>
