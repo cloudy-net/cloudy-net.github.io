@@ -55,6 +55,8 @@ export function App() {
           <dt>Companies with revenue <span title="Greater than ...">&gt;</span> $100,000/year</dt>
           <dd>$99.95 per month (excl VAT) per production instance</dd>
         </dl>
+
+        <p>For more information, email <a href="mailto:bjorn.a.goransson@gmail.com">bjorn.a.goransson@gmail.com</a>.</p>
         <sepa-rator></sepa-rator>
       </div>
       <footer class="site-footer">
