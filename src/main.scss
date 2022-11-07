@@ -1,7 +1,12 @@
-
-
-
 /* VARIABLES */
+
+:root {
+    --bs-body-color: white;
+    --bs-body-bg: #215b7d;
+    --bs-link-color: white;
+    --bs-link-hover-color: rgba(255, 255, 255, 0.7);
+    --bs-code-color: rgba(255, 255, 255, 0.7);
+}
 
 $screen-xs: 320px;
 $screen-tn: 576px;
@@ -14,24 +19,6 @@ $screen-hg: 1400px;
 
 /* GLOBAL ELEMENTS */
 
-body {
-    background-color: #215b7d;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    color: white;
-}
-
-
-
-/* CONTAINER */
-
-.container {
-    margin: 0 auto;
-    max-width: 920px;
-    padding: 0 10px;
-}
-
-
-
 iframe {
     margin: 0 auto;
     display: block;
@@ -41,85 +28,27 @@ iframe {
 
 /* CONTENT */
 
-.hero {
-    width: 100%;
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media(min-width: $screen-sm){
-    .hero {
-    }
-}
-
 hero-cloud {
     margin: 3rem 0 1rem;
     display: block;
     font-size: 35vw;
+    font-family: sans-serif;
     line-height: 0.5;
     text-align: center;
     text-shadow: 1px 1px 0 black;
 }
 
-@media(min-width: $screen-sm){
+@media(min-width: $screen-sm) {
     hero-cloud {
         margin-top: 5rem;
         font-size: 200px;
     }
 }
 
-.heading {
-    margin: 0 0 1em;
+h1,
+h2,
+h3 {
     text-shadow: 1px 1px 0 black;
-    text-align: center;
-}
-
-@media(min-width: $screen-sm){
-    .heading {
-        margin-bottom: 2rem;
-        font-size: 2.5rem;
-    }
-}
-
-
-
-/* INTRO */
-
-.intro {
-    margin-bottom: 2rem;
-    text-align: center;
-
-    p {
-        margin-top: 0;
-        margin-bottom: 1.5em;
-        line-height: 1.5em;
-    }
-}
-
-@media(min-width: $screen-sm){
-    .intro {
-        margin-bottom: 4rem;
-        font-size: 1.2rem;
-    }
-}
-
-
-
-/* SEPARATOR */
-
-sepa-rator {
-    margin-bottom: 2rem;
-    display: block;
-    height: 29px;
-    text-align: center;
-    border-top: solid 1px rgba(white, 0.2);
-}
-
-@media(min-width: $screen-sm) {
-    .sepa-rator {
-        margin-bottom: 5rem;
-    }
 }
 
 
@@ -132,155 +61,6 @@ sepa-rator {
     margin-bottom: 2rem;
 }
 
-
-
-/* USPS */
-
-.usp-list {
-    margin: 0 0 2rem;
-    padding: 0;
-    list-style: none;
-}
-
-@media(min-width: $screen-sm) {
-    .usp-list {
-        margin: 0 0 2rem;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-.usp-item {
-    margin: 0 0 2em;
-    padding: 0;
-    padding-right: 2rem;
-    box-sizing: border-box;
-}
-
-@media(min-width: $screen-sm) {
-    .usp-item {
-        flex: 0 0 50%;
-        padding: 0 0 0 5rem;
-    }
-}
-
-.usp-heading {
-    margin: 0 0 0.5em;
-}
-
-@media(min-width: $screen-sm) {
-    .usp-heading {
-        font-size: 1.4rem;
-    }
-}
-
-.usp-text {
-    font-size: 0.9rem;
-
-    p {
-        margin: 0 0 0.5em;
-    }
-}
-
-@media(min-width: $screen-sm) {
-    .usp-text {
-        font-size: 1rem;
-    }
-}
-
-
-
-/* COST CALCULATOR */
-
-cost-calculator-text {
-    margin-bottom: 1rem;
-    max-width: 350px;
-
-    p {
-        margin-top: 0;
-        margin-bottom: 0.5em;
-    }
-}
-
-@media(min-width: $screen-sm){
-    cost-calculator-text {
-        margin-bottom: 2rem;
-        font-size: 1.2rem;
-    }
-}
-
-cost-calculator {
-}
-
-@media(min-width: $screen-sm) {
-    cost-calculator {
-        margin: 0 auto;
-        display: flex;
-        max-width: 600px;
-        align-items: flex-start;
-    }
-}
-
-cost-calculator-range-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
-@media(min-width: $screen-sm) {
-    cost-calculator-range-column {
-        flex: 0 0 100px;
-        padding: 20px;
-    }
-}
-
-cost-calculator-text-column {
-    padding: 10px;
-    min-height: 200px;
-}
-
-@media(min-width: $screen-sm) {
-    cost-calculator-text-column {
-        flex: 1;
-        padding: 20px;
-    }
-}
-
-cost-calculator-range {
-    margin-top: 20px;
-    width: 100px;
-}
-
-cost-calculator-range-text {
-    margin-top: 10px;
-    font-family: monospace;
-    text-align: center;
-}
-
-.cost-calculator-tier-heading {
-    margin: 0 0 0.5em;
-}
-
-@media(min-width: $screen-sm) {
-    .cost-calculator-tier-heading {
-        font-size: 1.4rem;
-    }
-}
-
-cost-calculator-tier-text {
-    font-size: 0.9rem;
-
-    p {
-        margin: 0 0 0.5em;
-    }
-}
-
-@media(min-width: $screen-sm) {
-    cost-calculator-tier-text {
-        font-size: 1rem;
-    }
-}
 
 
 /* FOOTER */
