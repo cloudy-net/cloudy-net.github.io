@@ -41,9 +41,7 @@ export default () =>
       </div>
     </div>
 
-    <hr class="my-5" />
-
-    <div class="container" style="max-width: 720px;">
+    <div class="container mt-5" style="max-width: 720px;">
       <h2 class="mb-4">Database</h2>
 
       <p>Cloudy.CMS supports any database supported by EF Core: Inmemory, SQLite, SQL Server, CosmosDB ...</p>
