@@ -19,9 +19,16 @@ $screen-hg: 1400px;
 
 /* GLOBAL ELEMENTS */
 
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 iframe {
     margin: 0 auto;
     display: block;
+    max-width: 100%;
 }
 
 
@@ -66,6 +73,7 @@ h3 {
 /* FOOTER */
 
 .site-footer {
+    margin-top: auto;
     background: #252525;
 }
 
