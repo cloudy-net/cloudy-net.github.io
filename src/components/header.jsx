@@ -13,9 +13,9 @@ export default () => {
             <li class="nav-item">
               <a class="nav-link" href="#quick-start">Quick start</a>
             </li>
-            {/* <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#documentation">Documentation</a>
-            </li> */}
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#pricing">Pricing</a>
             </li>
