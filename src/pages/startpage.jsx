@@ -18,17 +18,32 @@ export default () =>
     <div class="container" style="max-width: 720px;">
       <div class="row" style="--bs-gutter-x: 3rem;">
         <div class="col-md">
+          <h3>Reduce time to market</h3>
+          <p>Model your application intuitively, getting off the ground quicker.</p>
+        </div>
+        <div class="col-md">
+          <h3>Reduce maintenance</h3>
+          <p>Cloudy maximizes the surface area of the library, leaving you with less code to maintain.</p>
+        </div>
+      </div>
+    </div>
+
+    {/* <hr class="my-5" /> */}
+
+    <div class="container" style="max-width: 720px;">
+      <div class="row" style="--bs-gutter-x: 3rem;">
+        <div class="col-md">
           <h3>Data model in POCOs</h3>
           <p>Your data model is stored declaratively, in code, version controlled, and deployed with your application.</p>
           <p>Content types do not get saved in some database, and they do not get created by point and click.</p>
           <pre style="background: rgba(0, 0, 0, 0.1); padding: 10px;">
             public class Book : <span class="opacity-50">INameable</span><br />
-            &#123;<br />
-            &nbsp;&nbsp;public Guid Id &#123; get; set; &#125;<br />
-            &nbsp;&nbsp;public string Name &#123; get; set; &#125;<br />
+            {'{'}<br />
+            &nbsp;&nbsp;public Guid Id {'{'} get; set; {'}'}<br />
+            &nbsp;&nbsp;public string Name {'{'} get; set; {'}'}<br />
             &nbsp;&nbsp;<span class="opacity-50">[Select(typeof(Author))]</span><br />
-            &nbsp;&nbsp;public Guid AuthorId &#123; get; set; &#125;<br />
-            &#125;
+            &nbsp;&nbsp;public Guid AuthorId {'{'} get; set; {'}'}<br />
+            {'}'}
           </pre>
         </div>
         <div class="col-md">
