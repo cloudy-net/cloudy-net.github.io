@@ -9,7 +9,7 @@ export default () =>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/pbCaz1tnSEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       <p class="my-5 text-center fs-5">
-        Gain control over the editing experience, without mucking around in hundreds of CRUD files, or getting fleeced by the incumbents.
+        Cloudy CMS automatically generates a graphical admin user interface based on your EF Core models, augmented with attributes and interfaces.
       </p>
     </div>
 
