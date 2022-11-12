@@ -28,15 +28,12 @@ export default () =>
         <br />
         app.UseStaticFiles(new StaticFileOptions().MustValidate()); // This removes the need for manually clearing browser cache when updating frontend assets<br />
         <br />
-        app.UseRouting();<br />
         app.UseAuthentication();<br />
         app.UseAuthorization();<br />
         <br />
-        app.UseEndpoints(endpoints =&gt; &#123;<br />
-        &nbsp;&nbsp;endpoints.MapRazorPages();<br />
-        &nbsp;&nbsp;endpoints.MapControllers();<br />
-        &nbsp;&nbsp;endpoints.MapGet("/", async c =&gt; c.Response.Redirect("/Admin"));<br />
-        &#125;);<br />
+        app.MapRazorPages();<br />
+        app.MapControllers();<br />
+        app.MapGet("/", async c =&gt; c.Response.Redirect("/Admin"));<br />
         <br />
         app.Run();<br />
       </pre>
