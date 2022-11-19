@@ -7,23 +7,28 @@ export default () =>
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>Non-commercial</th>
-            <th>Freelancer</th>
-            <th>Professional</th>
+            <th>Tier</th>
+            <th>Price</th>
+            <th>Conditions</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <th>Non-commercial</th>
+            <td>Free</td>
             <td>Non-commercial endeavours, OSS projects</td>
-            <td>Companies/freelancers with revenue <span title="Less than ...">&lt;</span> $100,000/year</td>
-            <td>Companies with revenue <span title="Greater than ...">&gt;</span> $100,000/year</td>
           </tr>
           <tr>
-            <td>Free</td>
+            <th>Freelancer</th>
+            <td>Companies/freelancers with revenue <span title="Less than ...">&lt;</span> $100,000/year</td>
             <td>
               $9.95 monthly* (excl VAT)<br /><br />
               (unlimited production instances)
             </td>
+          </tr>
+          <tr>
+            <th>Professional</th>
+            <td>Companies with revenue <span title="Greater than ...">&gt;</span> $100,000/year</td>
             <td>
               $99.95 monthly* (excl VAT)<br /><br />
               per production instance<br/><br/>
